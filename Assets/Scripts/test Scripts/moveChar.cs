@@ -19,7 +19,7 @@ public class moveChar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 4);
+        GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 6);
 
         if (Input.GetKeyDown(moveLeft))
         {
