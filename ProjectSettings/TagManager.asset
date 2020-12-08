@@ -6,6 +6,7 @@ TagManager:
   tags:
   - player
   - Ground
+  - Mail
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - 
   - player
   - ground
-  - 
-  - 
+  - Mail
+  - Enemy
   - 
   - 
   - 
@@ -48,4 +49,10 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 4235218713
+    locked: 0
+  - name: Mail
+    uniqueID: 397478233
+    locked: 0
+  - name: Enemy
+    uniqueID: 1019706501
     locked: 0

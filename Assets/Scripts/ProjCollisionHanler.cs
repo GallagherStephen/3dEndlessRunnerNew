@@ -11,13 +11,18 @@ public class ProjCollisionHanler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //if player gets hit,then the player dies
-        //disables the controls
-        SendMessage("PlayerHasDied"); //called by string reference to method in player movement
-        DoDeathSequence(); //enable explosion
-        //reload the scene 
-        Invoke("ReloadScene", loadDelay); //load delay to the reload scene 0
-        //Destroy(gameObject);
+
+        if (other.gameObject.tag.Equals("Enemy"))
+        {  
+            //if player gets hit,then the player dies
+             //disables the controls
+            SendMessage("PlayerHasDied"); //called by string reference to method in player movement
+            DoDeathSequence(); //enable explosion
+            //reload the scene 
+            Invoke("ReloadScene", loadDelay); //load delay to the reload scene 0
+            //Destroy(gameObject);
+        }
+       
     }
 
 
