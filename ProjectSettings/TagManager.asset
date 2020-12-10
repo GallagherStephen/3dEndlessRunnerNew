@@ -9,6 +9,7 @@ TagManager:
   - Mail
   - Enemy
   - Trigger
+  - PowerUps
   layers:
   - Default
   - TransparentFX
