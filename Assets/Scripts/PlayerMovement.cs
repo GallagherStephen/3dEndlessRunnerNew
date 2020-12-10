@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour{
         rb = GetComponent<Rigidbody>(); //for jump
 
         controlsActive = true; //at the start allow controls to be true
-        moveSpeed = 35f; //movement speed
+        //moveSpeed = 35f; //movement speed
 
     }
 
