@@ -32,6 +32,30 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 99157c912083eb04bbc4176effae7bd3
+  - enabled: 1
+    path: Assets/Scenes/MultiplayerScenes/LEVELONEP1.unity
+    guid: 8764fd1a7778c7e43a75e759baf40c40
+  - enabled: 1
+    path: Assets/Scenes/MultiplayerScenes/LEVELTWOP1.unity
+    guid: e72492184b3e9ae43aa1f274461aa2c5
+  - enabled: 1
+    path: Assets/Scenes/MultiplayerScenes/LEVELTHREEP1.unity
+    guid: 28f831846bb4869478f1f63b24511fe2
+  - enabled: 1
+    path: Assets/Scenes/MultiplayerScenes/LEVELONEP2.unity
+    guid: ab01ef10b3814c44f998cd8093a4d2d7
+  - enabled: 1
+    path: Assets/Scenes/MultiplayerScenes/LEVELTWOP2.unity
+    guid: 382dd432fe9b47b448265476fe32a4fa
+  - enabled: 1
+    path: Assets/Scenes/MultiplayerScenes/LEVELTHREEP2.unity
+    guid: 143fb7e80d9f72a448769fecda0c23af
+  - enabled: 1
+    path: Assets/Scenes/MultiplayerScenes/P2TurnScene.unity
+    guid: cc902b3925c749c45b63b7675dac93cd
+  - enabled: 1
+    path: Assets/Scenes/MultiplayerScenes/EndGameScene1.unity
+    guid: 8c88bc0f9d29e174b8aad2081e955965
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
