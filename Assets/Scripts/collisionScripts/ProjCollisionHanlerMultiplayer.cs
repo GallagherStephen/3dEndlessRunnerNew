@@ -8,6 +8,7 @@ public class ProjCollisionHanlerMultiplayer : MonoBehaviour
 
     [SerializeField] GameObject explosion;
     [SerializeField] float loadDelay = 2.0f;
+    [SerializeField] int DeathLevelIndex;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -33,6 +34,6 @@ public class ProjCollisionHanlerMultiplayer : MonoBehaviour
 
     private void ReloadScene()
     {
-        SceneManager.LoadScene(8); //reload to scene 0
+        SceneManager.LoadScene(DeathLevelIndex); //reload to scene 0
     }
 }
